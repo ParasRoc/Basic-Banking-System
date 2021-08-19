@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#one {
+
+  background-color: #2AF598;
+background-image: linear-gradient(0deg, #2AF598 0%, #08AEEA 10%);
+}
+
+
+.data {
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  align-items: center;
+  text-align: center;
+}
+.data-text {
+  padding: 20px 30px;
+}
+.data-text h1,
+h2,
+p {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+.data-text h2 {
+  font-size: 2rem;
+  margin: 15px 0px;
+}
+.data-text p {
+  font-size: 1rem;
+}
+.data-text p,h4{
+  color: black;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+.btn1 {
+  margin: 15px 20px;
+}
+.btn1,
+.btn2 {
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #1c9122 0%, #1c9122  100%);
+  /*border: 1px solid white;*/
+}
+.btn1 a,
+.btn2 a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.btn1:hover,
+.btn2:hover {
+  background: rgb(139, 136, 136);
+  border: none;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.col {
+  flex: 1;
+  padding: 20px 60px;
+  margin-top: 150px;
+}
+.image {
+  max-width: 500px;
+  width: 100%;
+  
+}
+.col,
+.cust-para {
+  font-size: 1rem;
+  margin-top: 40px;
+  padding-top: 0px;
+}
+.cust-btn {
+  margin-top: 20px;
+  border: none;
+  background-color: #0080ff;
+}
+.cust-btn,
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.cust-btn,
+a:hover {
+  color: black;
+}
+.row-two,
+.row-three {
+  margin-top: 0px;
+  
+}
+
+.view-data {
+  overflow: hidden;
+}
+.color h2 {
+  background-color:#00ced1;
+  color: white;
+  padding: 8px 0px;
+}
+.transfer-btn {
+  background-color:#00ced1;
+  margin-top: 0px;
+  color: white;
+}
+td {
+  color: black;
+}
+.color .create {
+  padding: 10px 0px;
+  margin-bottom: 57px;
+  font-size: 2.5rem;
+}
+.sub .submit-btn {
+  color: white;
+  background-color: rgb(77, 77, 247);
+}
+footer {
+  margin-top: 0px;
+  border-top: black 10px solid;
+  margin-bottom: 0px;
+  background-color:dimgray;
+}
+footer p {
+  
+  padding: 10px 0px;
+  margin-bottom: 0px;
+  font-size: large;
+  opacity: 0.5;
+}
